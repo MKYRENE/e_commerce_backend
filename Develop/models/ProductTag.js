@@ -1,9 +1,10 @@
+// productTag.js file
 const { Model, DataTypes } = require('sequelize');
-
 const sequelize = require('../config/connection');
 
 class ProductTag extends Model {}
 
+// Define ProductTag model attributes
 ProductTag.init(
   {
     id: {
@@ -26,7 +27,7 @@ ProductTag.init(
         key: 'id',
       },
     },
-},
+  },
   {
     sequelize,
     timestamps: false,
@@ -37,3 +38,4 @@ ProductTag.init(
 );
 
 module.exports = ProductTag;
+

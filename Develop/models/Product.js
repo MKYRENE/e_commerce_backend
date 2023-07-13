@@ -1,8 +1,10 @@
+// product.js file
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
 class Product extends Model {}
 
+// Define Product model attributes
 Product.init(
   {
     id: {
