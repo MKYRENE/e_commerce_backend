@@ -70,7 +70,7 @@ The database contains the following four models:
 
 ## Walkthrough Video
 
-[Link to the Walkthrough Video](insert-link-here)
+[Link to the Walkthrough Video](https://drive.google.com/file/d/1lwZ9kOpsF-bvHt8dGbHbAlz444DnWLcH/view)
 
 ## Contributing
 
